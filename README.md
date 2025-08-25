@@ -15,7 +15,7 @@ A simple **React-based Library Management System** with CRUD operations and sear
 
 ## ⚙️ Setup
 ```bash
-git clone https://github.com/your-username/library-management-system.git
+git clone https://github.com/nigama2209/LibraryManagementSystem.git
 cd library-management-system
 npm install
 npm start
