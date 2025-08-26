@@ -69,6 +69,7 @@ function HomePage() {
             autoClose: 500,
             position: "top-center",
           });
+          setShowBooks(true);
           setBooks((prev) =>
             prev.map((b) => (b._id === editId ? response.data.data : b)),
           );
@@ -147,6 +148,8 @@ function HomePage() {
   };
 
   const editBook = (book) => {
+    setShowBooks(false);
+    setSearchedBooks([]);
     setFormData({
       title: book.title,
       author: book.author,
